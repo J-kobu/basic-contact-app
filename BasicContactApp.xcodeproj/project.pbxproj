@@ -15,6 +15,12 @@
 		169FBA7B2630D97A002B20AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FBA502630D979002B20AC /* ContentView.swift */; };
 		169FBA7C2630D97A002B20AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169FBA512630D97A002B20AC /* Assets.xcassets */; };
 		169FBA7D2630D97A002B20AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169FBA512630D97A002B20AC /* Assets.xcassets */; };
+		169FBA922630DA3B002B20AC /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FBA912630DA3B002B20AC /* ContactDetailView.swift */; };
+		169FBA932630DA3B002B20AC /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FBA912630DA3B002B20AC /* ContactDetailView.swift */; };
+		169FBA992630DA71002B20AC /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FBA982630DA71002B20AC /* Contact.swift */; };
+		169FBA9A2630DA71002B20AC /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FBA982630DA71002B20AC /* Contact.swift */; };
+		169FBAA02630DA9F002B20AC /* ContactFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FBA9F2630DA9F002B20AC /* ContactFactory.swift */; };
+		169FBAA12630DA9F002B20AC /* ContactFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FBA9F2630DA9F002B20AC /* ContactFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		169FBA712630D97A002B20AC /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		169FBA752630D97A002B20AC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		169FBA772630D97A002B20AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169FBA912630DA3B002B20AC /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		169FBA982630DA71002B20AC /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		169FBA9F2630DA9F002B20AC /* ContactFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,9 @@
 			children = (
 				169FBA4F2630D979002B20AC /* BasicContactAppApp.swift */,
 				169FBA502630D979002B20AC /* ContentView.swift */,
+				169FBA912630DA3B002B20AC /* ContactDetailView.swift */,
+				169FBA982630DA71002B20AC /* Contact.swift */,
+				169FBA9F2630DA9F002B20AC /* ContactFactory.swift */,
 				169FBA512630D97A002B20AC /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,6 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169FBA992630DA71002B20AC /* Contact.swift in Sources */,
+				169FBAA02630DA9F002B20AC /* ContactFactory.swift in Sources */,
+				169FBA922630DA3B002B20AC /* ContactDetailView.swift in Sources */,
 				169FBA7A2630D97A002B20AC /* ContentView.swift in Sources */,
 				169FBA782630D97A002B20AC /* BasicContactAppApp.swift in Sources */,
 			);
@@ -317,6 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169FBA9A2630DA71002B20AC /* Contact.swift in Sources */,
+				169FBAA12630DA9F002B20AC /* ContactFactory.swift in Sources */,
+				169FBA932630DA3B002B20AC /* ContactDetailView.swift in Sources */,
 				169FBA7B2630D97A002B20AC /* ContentView.swift in Sources */,
 				169FBA792630D97A002B20AC /* BasicContactAppApp.swift in Sources */,
 			);
